@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="MaheshTechnicals" fetch="https://github.com/MaheshTechnicals" />
+    <remote name="clarencekopitiam" fetch="https://github.com/clarencekopitiam" />
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+    <remote name="clarencelol" fetch="https://github.com/clarencelol" />
+
+    <!-- Remove projects -->
+    <remove-project name="frameworks_native" />
+    <remove-project name="crdroidandroid/android_hardware_xiaomi" />
+
+    <!-- Sync frameworks/native -->
+    <project path="frameworks/native" name="MaheshTechnicals/frameworks_native-alpha" remote="MaheshTechnicals" revision="alpha-14" />
+
+    <!-- Sync Kernel Tree -->
+    <project path="kernel/xiaomi/sm6250" name="clarencekopitiam/kernel_xiaomi_sm6250" remote="clarencekopitiam" revision="15" />
+
+    <!-- Sync Vendor Tree -->
+    <project path="vendor/xiaomi/miatoll" name="clarencekopitiam/vendor_xiaomi_miatoll" remote="clarencekopitiam" revision="lineage-21.0" />
+
+    <!-- Sync hardware/xiaomi -->
+    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="LineageOS" revision="lineage-21.0" />
+
+    <!-- Sync hardware/sony/timekeep -->
+    <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="LineageOS" revision="lineage-21.0" />
+
+    <!-- Sync vendor/xiaomi/miuicamera -->
+    <project path="vendor/xiaomi/miuicamera" name="clarencelol/vendor_xiaomi_miuicamera" remote="clarencelol" revision="main" />
+
+    <!-- Sync device/xiaomi/miatoll -->
+    <project path="device/xiaomi/miatoll" name="MaheshTechnicals/device_xiaomi_miatoll-ev" remote="MaheshTechnicals" revision="alpha" />
+
+    <!-- Sync vendor/lineage-priv/keys -->
+    <project path="vendor/lineage-priv/keys" name="MaheshTechnicals/vendor_lineage-priv" remote="MaheshTechnicals" revision="alpha" />
+
+</manifest>
