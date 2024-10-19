@@ -3,11 +3,6 @@
 
     <!-- Remotes -->
     <remote name="github" fetch="https://github.com" />
-
-    <!-- Remove Projects -->
-    <remove-project name="frameworks_native" />
-    <remove-project name="crdroidandroid/android_hardware_xiaomi" />
-
     <!-- Kernel -->
     <project path="kernel/xiaomi/sm6250" name="clarencekopitiam/kernel_xiaomi_sm6250" remote="github" revision="15" />
 
