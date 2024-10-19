@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!-- Remotes -->
-    <remote name="github" fetch="https://github.com" />
-    <!-- Kernel -->
+       <!-- Kernel -->
     <project path="kernel/xiaomi/sm6250" name="clarencekopitiam/kernel_xiaomi_sm6250" remote="github" revision="15" />
 
     <!-- Vendor -->
